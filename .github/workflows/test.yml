@@ -11,7 +11,7 @@ jobs:
   test-php:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@4
+      - uses: actions/checkout@v4
 
       - name: Installer PHP
         uses: shivammathur/setup-php@v2
